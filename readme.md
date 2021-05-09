@@ -4,7 +4,7 @@
 
 ## Project Description
 #### History of Internet / How the Internet Works Website.
-This website is made using CSS, grid layouts, and floats. Index page has Z layout with hero image. Content pages are made with F-layout and has a smaller secondary menu for content pages. Moreover, the F-layout content clears when the browser window is resized to a certain degree.  Secondary menu's are divided between "Internet History" and "How the Internet Works". Website also has favicon with my initials.
+This website is made using CSS, grid layouts, and floats. Index page has Z layout with hero image. Content pages are made with F-layout and has a smaller secondary menu for content pages. Moreover, the F-layout content clears when the browser window is resized to a certain degree.  Secondary menu's are divided between "Internet History" and "How the Internet Works". The website also has favicon with my initials. Lastly, the website is optimized with SEO guidelines and includes Google Analytics tracking.
 
 
 ## Designs
