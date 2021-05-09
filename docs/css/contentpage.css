@@ -1,0 +1,157 @@
+.mainheader { grid-area: header; }
+.menu1 { grid-area: menu; }
+.content1 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'header header header header header header'
+    'menu menu menu menu menu menu'
+    'main main main main main main'
+    'main main main main main main'
+    'footer footer footer footer footer footer';
+    grid-gap: 10px;
+
+    padding: 10px;
+}
+
+body{
+    background-color: #eeeeee;
+
+
+}
+
+body, html {
+    height: 100%;
+}
+
+.grid-container > div {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 30px;
+}
+
+menu {
+    margin: 0px;
+    padding: 0px;
+}
+.mainMenu li {
+    display: inline-grid;
+    grid-gap: 10px;
+}
+.mainMenu menu a:link, a:visited {
+    color: black;
+    font-size: 1.2em;
+
+    padding: 0px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+}
+.mainMenu menu a:active, a:hover {
+
+    color: darkcyan;
+
+
+}
+
+.mainMenu ul {
+    margin: 20px;
+}
+.mainMenu li {
+    margin-left: 1rem;
+}
+
+
+
+.mainMenu1 li {
+    display: inline;
+    grid-gap: 0px;
+}
+.mainMenu1 menu a:link, a:visited {
+    color: black;
+    font-size: 0.8em;
+
+
+    padding: 10px 10px;
+    text-align: left;
+    text-decoration: none;
+
+}
+.mainMenu1 menu a:active, a:hover {
+
+    color: darkcyan;
+
+
+}
+
+.mainMenu1 ul {
+    margin: 0px;
+}
+.mainMenu1 li {
+    margin-left: 0rem;
+}
+
+
+
+
+.left{
+    float: left;
+    width: 30%;
+
+}
+
+.right{
+    float:left;
+    width:70%;
+    font-size: 0.5em;
+    text-align: left;
+
+
+}
+
+img{
+    max-width:100%;
+    max-height:100%;
+
+}
+
+@media screen and (max-width: 900px) {
+    .left, .right{
+        width: 100%;
+    }
+
+
+}
+
+p{
+    padding-left: 20px;
+
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2 {
+    text-align: left;
+    padding-left: 20px;
+
+}
+
+#active{
+    color: darkcyan;
+}
+
+#active1{
+    color: darkcyan;
+}
+
